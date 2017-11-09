@@ -1,5 +1,5 @@
 {
-  "name": "adbkit",
+  "name": "node-adbkit",
   "version": "2.11.0",
   "description": "A pure Node.js client for the Android Debug Bridge.",
   "keywords": [
@@ -16,21 +16,7 @@
     "url": "https://github.com/openstf/adbkit/issues"
   },
   "license": "Apache-2.0",
-  "author": {
-    "name": "The OpenSTF Project",
-    "email": "contact@openstf.io",
-    "url": "https://openstf.io"
-  },
   "main": "./index",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/openstf/adbkit.git"
-  },
-  "scripts": {
-    "postpublish": "grunt clean",
-    "prepublish": "grunt test coffee",
-    "test": "grunt test"
-  },
   "dependencies": {
     "adbkit-logcat": "^1.1.0",
     "adbkit-monkey": "~1.0.1",
@@ -60,38 +46,5 @@
   },
   "engines": {
     "node": ">= 0.10.4"
-  },
-  "gitHead": "0adc637a59690e1d9839e9559cac3956c7b4721b",
-  "homepage": "https://github.com/openstf/adbkit#readme",
-  "_id": "adbkit@2.11.0",
-  "_npmVersion": "5.0.3",
-  "_nodeVersion": "8.1.2",
-  "_npmUser": {
-    "name": "sorccu",
-    "email": "simo@shoqolate.com"
-  },
-  "dist": {
-    "integrity": "sha512-j2vUhEeZmCiqBP+p77CpPWQTcT20rOmSmRHFUTZUwUpxzeCd3fXop4NAGYztSY9/FNU4bT/qqvYQ4EZKuCXhfA==",
-    "shasum": "9a8da51e62790f8bae5296b1c52614f69e4c2684",
-    "tarball": "https://registry.npmjs.org/adbkit/-/adbkit-2.11.0.tgz"
-  },
-  "maintainers": [
-    {
-      "name": "sorccu",
-      "email": "simo@shoqolate.com"
-    },
-    {
-      "name": "cyberagent",
-      "email": "npm@cyberagent.co.jp"
-    }
-  ],
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/adbkit-2.11.0.tgz_1502281725540_0.030396183021366596"
-  },
-  "directories": {},
-  "_shasum": "9a8da51e62790f8bae5296b1c52614f69e4c2684",
-  "_resolved": "https://registry.npmjs.org/adbkit/-/adbkit-2.11.0.tgz",
-  "_from": "adbkit@2.11.0",
-  "readme": "ERROR: No README data found!"
+  }
 }
